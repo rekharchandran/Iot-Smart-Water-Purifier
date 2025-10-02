@@ -6,17 +6,17 @@
 #include <Preferences.h> // For storing data persistently
 
 // WiFi Credentials
-const char* ssid = "NETGEAR23";
-const char* password = "Rechii2533";
+const char* ssid = "******";
+const char* password = "*****";
 
 // Telegram Bot Credentials
-#define BOTtoken "7001862483:AAHUH1-2XMe8GINZmvsbCTTdE9fCj2Pg3zg"
-#define CHAT_ID "6574994642"
+#define BOTtoken "***************"
+#define CHAT_ID "***********"
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 
 // Google Spreadsheet Web App URL
-const char* serverName = "https://script.google.com/macros/s/AKfycbxlOUyt_WMyDih2q0VoHRNE1GPFYUDw2VK_HcOohjG4UI2gv9aoyxQmJG0BnQQ4DMqO2g/exec";
+const char* serverName = "***************";
 
 // Pins
 const int touchSensorPin = 4; // Touch sensor pin
